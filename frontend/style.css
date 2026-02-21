@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.navItems a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.searchCart {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#hero-section {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93.5dvh;
+    background-image: url(src/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#shop{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+}
+.label h2{
+    color: #f0f0f0;
+    display: flex;
+    justify-content: start;
+}
+.categories{
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55dvh;
+    
+}
+.categoryCard1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50dvh;
+    width: 28dvw;
+    margin: 0 1rem;
+    background-color: #333;
+}
+.categoryCard2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50dvh;
+    width: 28dvw;
+    margin: 0 1rem;
+    background-color: #333;
+}
+.categoryCard3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50dvh;
+    width: 28dvw;
+    margin: 0 1rem;
+    background-color: #333;
+}
+.categoryCard1 img, .categoryCard2 img, .categoryCard3 img{
+    width: 28dvw;
+    height: 60dvh;
+    
+   
+    border-radius: 5px;
+}
+.categoryDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}

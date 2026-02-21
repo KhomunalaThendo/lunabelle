@@ -269,6 +269,7 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
 
     .logo {
@@ -286,7 +287,10 @@ nav {
     .searchCart {
         display: flex;
         align-items: center;
+        justify-content: center;
+       
     }
+    
 
     .search input {
         padding: 5px;
@@ -294,6 +298,7 @@ nav {
         border-radius: 4px;
         background-color: var(--color-input-bg);
         color: var(--color-text-primary);
+        width: 200px;
     }
 
     #hero-section {
@@ -309,6 +314,20 @@ nav {
         background-size: cover;
         background-position: center;
         color: var(--color-text-primary);
+    }
+    #shopNow{
+        background-color: var(--color-accent-gold);
+        color: var(--color-text-primary);
+        border: none;
+        border-radius: 5px;
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color var(--transition-fast);
+    }
+
+    #shopNow:hover {
+        background-color: var(--color-primary-light);
     }
 
     #shop {

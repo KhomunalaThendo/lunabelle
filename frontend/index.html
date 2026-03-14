@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>LunaBelle Co.</title>
+    <title>La Dignitas Co.</title>
 </head>
 <body>
 
     <header>
         <nav>
-            <div class="logo">LunaBelle Co.</div>
+            <div class="logo">La Dignitas Co.</div>
             <div class="navItems">
                 <a href="#shop">SHOP</a>
                 <a href="#">COLLECTIONS</a>
@@ -23,6 +23,7 @@
                 </div>
                 <a href="#cart">
                     <img src="src/icons/cart.svg" alt="">
+                    <P id="cartCount"></P>
                 </a>
                 <a href="#">
                     <img src="src/icons/profile.svg" alt="">
@@ -31,12 +32,29 @@
             </div>
         </nav>
     </header>
+
     <section id="hero-section">
-        <div class="hero-content"><h1>Welcome to LunaBelle Co.</h1>
-        <p>Sophisticated modern fashion for the bold and beautiful. Experience the intersection of luxury and light.</p>
+        <div id="heroSliders">
+            <div class="slides">
+                <div class="slide">
+                    <img src="src/category1.png" alt="" width="1920px" height="1080px">
+                </div>
+        
+                <div class="slide">
+                    <img src="src/perfume.jpg" alt="" width="1920px" height="1080px">
+                </div>
+            </div>
         </div>
+        <div class="hero-content">
+        <h1>Glow <span>in</span> Elegance</h1>
+        <p>A curated triad of luxury, high-fasion apparel,
+        artisanal handbags, and professional beauty tools
+        designed for the modern radiance.</p>
         <button id="shopNow">Shop Now</button>
+        </div>
+        
     </section>
+
     <section id="shop">
         <div class="label">
             <h2>Shop By Category</h2>
@@ -76,22 +94,22 @@
     </section>
     <section id="bestSeller">
         <div class="label">
-            <h2>Best Sellers</h2>
+            <h2>Our Products</h2>
             <div class="best-sellers">
                 <div class="bestProduct">
                     <div class="bestimg">
-                        <img src="src/best1.png" alt="">
+                        <img src="src/category1.png" alt="">
                     </div>
                     <div class="bestdetails">
                         <div class="title">
                             <p>Luna Gold Crono</p>
                         </div>
                         <div class="price">
-                            <p>$299.99</p>
+                            <p>R 159.99</p>
                         </div>
                     </div>
                     <div class="addToCart">
-                        <button id="cartbtn"><img src="src/icons/add-cart.png" alt=""></button>
+                        <button id="cartbtn">ADD TO CART</button>
                     </div>
                 </div>
                 
@@ -108,7 +126,7 @@
                         </div>
                     </div>
                     <div class="addToCart">
-                        <button id="cartbtn"><img src="src/icons/add-cart.png" alt=""></button>
+                        <button id="cartbtn">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="bestProduct">
@@ -124,7 +142,7 @@
                         </div>
                     </div>
                     <div class="addToCart">
-                        <button id="cartbtn"><img src="src/icons/add-cart.png" alt=""></button>
+                        <button id="cartbtn">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="bestProduct">
@@ -140,7 +158,7 @@
                         </div>
                     </div>
                     <div class="addToCart">
-                        <button id="cartbtn"><img src="src/icons/add-cart.png" alt=""></button>
+                        <button id="cartbtn">ADD TO CART</button>
                     </div>
                 </div>
             </div>
@@ -151,17 +169,20 @@
             <h2>About Us</h2>
             <div class="aboutInfo">
                 <div class="aboutContext">
-                    <p>Welcome to LunaBelle, your number one source for all things beauty. We're dedicated to giving you the very best of beauty products, with a focus on dependability, customer service, and uniqueness.</p>
-                    <p>Founded in 2023 by Thend, LunaBelle has come a long way from its beginnings in a home office. When Thend first started out, his passion for eco-friendly beauty products drove him to quit his day job and do tons of research, so LunaBelle can offer you the world's most advanced beauty products. We now serve customers all over the US and are thrilled that we're able to turn our passion into our own website.</p>
-                    <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+                    <p>
+                      La Dignitas Co. was created to celebrate the beauty, confidence, and strenght of the modern women. Inspired by the meaning of dignity and elegance, our store is built on the belief that every woman deserves to feel in what she wears and carries.  
+                    </p>
+                    <p>
+                        We curate a collection of stylish bags, feminine fashion,and self-care essentials designed to elivate everyday moments. We believe elegance is not just about appearance- it's about how you feel. Our mission is to bring products that make women feel <strong>bold, beautiful, and empowered</strong> wherever life takes them.
+                    </p>
                 </div>
                 <div class="aboutImg">
-                    <img src="src/aboutimg.jpg" alt="">
+                    <img src="src/logo1.jpg" alt="">
                 </div>
             </div>
          </div>   
 
     </section>
-    
+   <script src="index.js"></script> 
 </body>
 </html>

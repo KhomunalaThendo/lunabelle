@@ -52,6 +52,7 @@ html{
     scroll-behavior: smooth;
 
 }
+/* landing page styling*/
 
 header {
     background-color: #333;
@@ -269,7 +270,7 @@ nav {
     align-items: center;
     background-color: #2A2A2A;
 }
-.best-sellers{
+.productContainer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,18 +278,18 @@ nav {
     width: 100dvw;
     gap: 1rem;
 }
-.bestProduct{
+.productCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     outline: 3px solid var(--color-border);
 }
-.bestProduct img{
+.productCard img{
     width: 25dvw;
     height: 32dvh;
 }
-.bestdetails{
+.productDetails{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -335,8 +336,10 @@ nav {
     height: 40vh;
     border-radius: 5px;
 }
+/*Product page styling*/
+
 @media screen and (max-width: 768px) {
-    
+    /*landing page styling*/
     header{
         background-color: #333;
         padding: 10px 20px;
@@ -379,9 +382,11 @@ nav {
 
     }
     .categoryCard1, .categoryCard2, .categoryCard3{
-        width: 80vw;
+        width: 85vw;
         height: 30vh;
+        background-position: center;
     }
+
     #bestSeller{
         overflow: hidden;
         height: 100vh;
@@ -391,14 +396,14 @@ nav {
         align-items: center;
         background-color: #2A2A2A;
     }
-    .best-sellers{
+    .productContainer{
         display: flex;
         align-items: center;
         justify-content: center;
         height: 90vh;
         flex-wrap: wrap;
     }
-    .bestProduct img{
+    .productCard img{
         height: 20dvh;
         width: 20dvw;
     }
